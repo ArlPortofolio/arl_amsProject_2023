@@ -8,6 +8,7 @@
   overflow: auto;
 }
 
+/* Css untuk tampilan sidebar-item */
 .sidebar-item {
   padding: 0.75em 1em;
   display: block;
@@ -40,6 +41,7 @@
   transform: rotate(180deg);
 }
 
+/* Css untuk tampilan sidebar-content */
 .sidebar-content {
   padding-top: 0.25em;
   height: 0;
