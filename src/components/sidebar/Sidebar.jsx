@@ -6,13 +6,17 @@ import SidebarItem from "./SidebarItem";
 export const Sidebar = () => {
   return (
     <div className="sidebar">
-      <SidebarItem/>
+      {items.map((item, index) => (
+        <SidebarItem key={index} item={item} />
+      ))}
     </div>
   );
 };
 
-{/* <div className="sidebar bg-success">
+{
+  /* <div className="sidebar bg-success">
       {items.map((item, index) => (
         <SidebarItem key={index} item={item} />
       ))}
-    </div> */}
+    </div> */
+}
